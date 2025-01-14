@@ -1,0 +1,111 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+
+
+
+.user-panel {
+    display: flex;
+    align-items: center;
+}
+
+.logout-btn {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+#home {
+    text-align: center;
+    margin-right: auto;
+    padding: 2rem;
+    margin-top: 10rem;
+}
+
+ul li span {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Podstawowe style dla przycisku i panelu */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Sekcje formularzy domyślnie ukryte */
+.form-section {
+    display: none;
+}
+
+/* Stylowanie przycisków */
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; /* Odstęp między przyciskami */
+}
+
+.main-btn {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: crimson;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 250px; /* Szerokość przycisku */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-btn:hover {
+    background-color: rgb(83, 11, 11);
+    color: white;
+}
+
+#form-order{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+.form-section{
+    padding-top: 50px;
+    max-width: 80%;          /* Maksymalna szerokość zdjęcia, np. 80% szerokości kontenera */
+    height: auto;            /* Zachowanie proporcji zdjęcia */
+    display: block;          /* Zapewnia, że obraz będzie traktowany jako blok */
+    margin: 0 auto;
+      
+}
+.form-section img {
+    max-width: 60%;          /* Maksymalna szerokość zdjęcia, np. 60% szerokości kontenera */
+    height: auto;            /* Zachowanie proporcji zdjęcia */
+    display: block;          /* Zapewnia, że obraz będzie traktowany jako blok */
+    margin: 0 auto;          /* Wyśrodkowanie zdjęcia */
+}

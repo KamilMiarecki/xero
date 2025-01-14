@@ -1,0 +1,41 @@
+form {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.service {
+    margin-bottom: 15px;
+}
+
+input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.total {
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-left: 10px;
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <title>Logowanie Xero-Studio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cookies.css">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <input type="hidden" name="csrf-token" value="CIwNZNlR4XbisJF39I8yWnWX9wX4WFoz">
+        <meta name="keywords" content="xero,sprzedaż, ksero rzeszów,xero-studio">
+        <link href="css/lightbox.min.css" rel="stylesheet"/>
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.0.0/dist/umd/supabase.min.js"></script> -->
+   
+    <script type="module" src="js/register.js" ></script>
+    <script type="module" src="js/login.js"></script>
+    
+   
+    
+</head>
+<body>
+    
+<section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="index.html">
+            <h1><span>Xero - Studio</span></h1>          
+            <!-- <h1><span class="red">X</span>ero - Studio</h1> -->
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html#about" data-after="O nas">o nas</a></li>
+            <li><a href="index.html#projects" data-after="OFERTA">OFERTA</a></li>
+            <li><a href="index.html#realizacje" data-after="projekty">projekty</a></li>
+            <li><a href="index.html#contact" data-after="Kontakt">Kontakt</a></li>
+            <li><a href="formularz.html" data-after="Formularz">Formularz</a></li>
+            <li><a href="login.html" data-after="login-panel">Logowanie</a></li>
+            <li><a href="https://www.google.com/maps/dir//Ksero+Rzesz%C3%B3w,+Xero-Studio.,+Bernardy%C5%84ska,+Rzesz%C3%B3w/@50.0386155,21.9672298,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x473cfaf256fc8ef7:0x7c0c540fffe4b74f!2m2!1d22.0022491!2d50.0385656" data-after="trasa">wyznacz trasę</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="login-section">
+      <div class="loginwrapper">
+        <div class="title-text">
+          <div class="title login">Logowanie</div>
+          <div class="title signup">Rejestracja</div>
+        </div>
+        <div class="form-container">
+          <div class="slide-controls">
+            <input type="radio" name="slide" id="login" checked>
+            <input type="radio" name="slide" id="signup">
+            <label for="login" class="slide login">Logowanie</label>
+            <label for="signup" class="slide signup">Rejestracja</label>
+            <div class="slider-tab"></div>
+          </div>
+          <div class="form-inner">
+            <!-- Formularz logowania -->
+            <form id="login-form" class="login">
+              <div class="field">
+                <input type="email" id="login-email" placeholder="Email" required>
+              </div>
+              <div class="field">
+                <input type="password" id="login-password" placeholder="Hasło" required>
+              </div>
+              <div class="pass-link" id="reset-password"><a href="#">Zapomniałeś hasła?</a></div>
+              <div class="field btn">
+                <div class="btn-layer"></div>
+                <input type="submit" value="Zaloguj się">
+              </div>
+              <div class="signup-link">Nie masz konta? <a href="#">Zarejestruj się</a></div>
+            </form>
+    
+            <!-- Formularz rejestracji -->
+            <form id="signup-form" class="signup">
+              <div class="field">
+                <input type="email" id="signup-email" placeholder="Email" >
+              </div>
+              <div class="field">
+                <input type="password" id="signup-password" placeholder="Hasło" >
+              </div>
+              <div class="field">
+                <input type="password" id="signup-confirm-password" placeholder="Potwierdź hasło" >
+              </div>
+              <div class="field btn">
+                <div class="btn-layer"></div>
+                <input type="submit" id="submit" value="Zarejestruj się">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/login-panel.js"></script>
+    <!-- <script src="js/supabase_app.js"></script> -->
+    
+   
+
+    
+
+
+    <section id="footer">
+             <div class="wrapper">
+             <ul class="wrapper" >
+                 <li class="icon facebook">
+                   <span class="tooltip">Facebook</span>
+                   <a href="https://pl-pl.facebook.com/xerostudio3/" target="_blank">
+                   <span><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook-new.png"/></span>
+                 </a>
+                 </li>
+                 <li class="icon twitter">
+                   <span class="tooltip">Google</span>
+                   <a href="https://www.google.com/search?q=ksero+rzesz%C3%B3w+xero-studio&ei=JhjyYqyaKbmGwPAPnde04AM&gs_ssp=eJzj4tFP1zcsKKkoSa4sMTdgtFI1qDAxN05OS0wzMjVLS7ZITTO3MqgwTzZINjUxSEtLSzVJMjdJ85LKLk4tylcoqkotrjq8uVyhAsjTLS4pTcnMBwAZ_RuG&oq=Ksero+Rzesz%C3%B3w%2C+Xero-Studio&gs_lcp=Cgdnd3Mtd2l6EAEYADILCC4QgAQQxwEQrwEyAggmOgcIABBHELADSgQIQRgASgQIRhgAUJMBWJMBYLYKaAFwAHgAgAFiiAFikgEBMZgBAKABAqABAcgBB8ABAQ&sclient=gws-wiz" target="_blank">
+                   <span><img src="https://img.icons8.com/ios-glyphs/30/000000/google-logo--v1.png"/></span>
+                 </a>
+                 </li>
+               </ul>
+             </div>
+             <div class="bottom-bar">
+               <div class="footer_copyright">
+                 <p> Copyright &copy; <span id="year"></span>. <a href="#">Xero-Studio  </a> All rights reserved. </p>
+               </div>
+             </div>
+     </section>
+     <!--cookies -->
+     
+     <div id="cookie-banner" class="cookie-banner">
+       <img src="https://img.icons8.com/emoji/48/000000/cookie-emoji.png" alt="Cookie Icon" class="cookie-icon" />
+       <span class="cookie-text">
+           Ta strona korzysta z ciasteczek aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie. 
+           <a href="https://policies.google.com/technologies/cookies?hl=pl" class="cookie-link">Więcej</a>
+       </span>
+       <button id="cookie-accept" class="cookie-button">OK</button>
+     </div>
+     <!--end footer section-->
+     <script src="js/app.js"></script>
+     <script src="js/cookies.js"></script>
+    
+     </script>
+          
+          
+
+     
+</body>
+</html>
