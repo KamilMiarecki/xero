@@ -35,3 +35,4 @@ Projekt strony internetowej dla punktu ksero **Xero-Studio** zlokalizowanego w R
 ![historia formularzy](https://github.com/user-attachments/assets/9160aa92-88c3-4820-a4cd-38c1c4c3aca0)
 ![formularze](https://github.com/user-attachments/assets/543834c4-487d-4395-9f1b-75482a10f10d)
 ![kwu](https://github.com/user-attachments/assets/8f7eaedd-2cb1-4a24-815a-758b03a460ca)
+![zdj formularz kontaktowy wydruku test updated ui](https://github.com/user-attachments/assets/a83edaec-e43d-47a2-94b7-8ade2dd574a2)
