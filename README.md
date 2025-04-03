@@ -22,6 +22,7 @@ Projekt strony internetowej dla punktu ksero **Xero-Studio** zlokalizowanego w R
 - `php/` – skrypty PHP
 - `lightbox2-2.11.3/` – biblioteka Lightbox
 - `prices.json` – przykładowy plik JSON z cennikiem usług
+  # Przedstawienie aplikacji
 ![1](https://github.com/user-attachments/assets/18f545ab-282e-4267-a219-908ab4c73daf)
 
 ![2](https://github.com/user-attachments/assets/d83cc8d9-a341-4f46-acad-9db56ee95b62)
